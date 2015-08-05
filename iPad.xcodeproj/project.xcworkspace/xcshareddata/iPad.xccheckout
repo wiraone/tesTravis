@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D5B2AA1C-D0A7-4EF9-A685-B204FB278558</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iPad</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DD5EA8FC25D21111C2333A5C9406FEF698C0AF42</key>
+		<string>https://github.com/wiraone/travisTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iPad.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DD5EA8FC25D21111C2333A5C9406FEF698C0AF42</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wiraone/travisTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DD5EA8FC25D21111C2333A5C9406FEF698C0AF42</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DD5EA8FC25D21111C2333A5C9406FEF698C0AF42</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TesTabbar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
