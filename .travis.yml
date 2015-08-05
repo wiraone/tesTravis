@@ -6,11 +6,11 @@ before_script:
 - chmod +x script/remove-key.sh
 - chmod +x script/sign-and-upload.sh
 - chmod +x script/update-bundle.sh
+- chmod +x script/build.sh
 - ./script/add-key.sh
 - ./script/update-bundle.sh
 script:
-- xctool -workspace iPad.xcworkspace -scheme iPad -sdk iphoneos8.4 -configuration
-  Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO 'CODE_SIGN_RESOURCE_RULES_PATH=$(SDKROOT)/ResourceRules.plist'
+- ./script/build.sh
 after_success:
 - ./script/sign-and-upload.sh
 after_script:
