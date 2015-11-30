@@ -540,7 +540,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "20abc903-dafc-40e7-b8f1-b9d808ef5ef1";
+				PROVISIONING_PROFILE = "2ea0a5c9-1677-4362-b5c5-05ea91ad4ea9";
 				UI_BUNDLE_ID = com.urbanindo.iPad;
 			};
 			name = Debug;
@@ -561,7 +561,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "20abc903-dafc-40e7-b8f1-b9d808ef5ef1";
+				PROVISIONING_PROFILE = "2ea0a5c9-1677-4362-b5c5-05ea91ad4ea9";
 				UI_BUNDLE_ID = com.urbanindo.iPad;
 			};
 			name = Release;
