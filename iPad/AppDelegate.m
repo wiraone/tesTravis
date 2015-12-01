@@ -23,7 +23,7 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     splitViewController.delegate = self;
-    
+    NSLog(@"tes");
     //hockey App initialization
     [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:@"bb2a2e725abf4c7e0c708a6fb329786a"];
     // Configure the SDK in here only!
