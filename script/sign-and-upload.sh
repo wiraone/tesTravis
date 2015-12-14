@@ -22,7 +22,7 @@ xcrun -log -sdk iphoneos PackageApplication "$OUTPUTDIR/$APP_NAME.app" -o "$OUTP
 zip -r -9 "$OUTPUTDIR/$APP_NAME.app.dSYM.zip" "$OUTPUTDIR/$APP_NAME.app.dSYM"
 
 RELEASE_DATE=`date '+%Y-%m-%d %H:%M:%S'`
-RELEASE_NOTES="$COMMIT_MSG \nUploaded: $RELEASE_DATE"
+RELEASE_NOTES="$(git log --format=%B --no-merges -n 1) Uploaded: $RELEASE_DATE"
 
 if [ ! -z "$HOCKEY_APP_ID" ] && [ ! -z "$HOCKEY_APP_TOKEN" ]; then
   echo ""
