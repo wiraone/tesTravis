@@ -20,6 +20,7 @@ env:
   - APP_NAME="iPad"
   - 'DEVELOPER_NAME="iPhone Distribution: Teknologi Kreasi Anak Bangsa, PT (A9P9DCV3NU)"'
   - PROFILE_NAME="Urbanindo_Adhoc_iPad"
+  - COMMIT_MSG=\"$(git log --format=%B --no-merges -n 1)\""
   - INFO_PLIST="iPad/Info.plist"
   - BUNDLE_DISPLAY_NAME="iPad"
   - secure: Smcn3KKWeOinijiORi/WxCfJeOf17LJKSb7DUKTSc6GRAvB5z6iGrk84oGxmKJ+CjN/qEWWL5JfsXlGHpKAGUA7eVlg/RJ+j3ZLLU2IrgSenKpAj/Rc600RXFIosciNMJbDDm0oWwYJVIdMKEwYIevn80UBegFel4f8pGGqqlzN+C3SAhlbNY8VCUTD5MLTtUAddY6S6nSGMz5NWjH/salYwlhbay8Y93MUzSB0oGPlgQgplPNYlcQFADnvyQDAeBRkG4Gf89+HZW2o2PR1bA+oQbPu079XMTvJrtLbyU0qe1zu9II430xOdgw+h/kbTu3ed9TX4qLWzW08SGAPgBhK9tdItkuN8qTprfklNKDoYLIBVFhYsCiTFLAN8KmgyB/vpEQLTNGFwFa0ePr8TmnnlqH27lLz+sESWm8Hg8//9YC1TMZseqbWF6WNphEGOBctK+XwS0RkEPC6n0LjNFpSreh70fDAbqBvoxn4B2mFlCYfXQ0j2BM51VMKqPLtykC1Z36Rl8B+Dawd+MoUdw7YGQdOgsgQD8xDC8h67uEwhMmEJ5cmUiYAsnzxyBp8l+OuXVZSP9X85q93+09FmW7eo1KJt0ZKQ1xP0l0qujZNNNmtSL/jAJCtI5RcL5BnSa/FuzwitxdUMJpNx9xp2ygsu45Zg9WcqnYkExsvpAMY=
