@@ -1,7 +1,7 @@
-if [ ! -z "$INFO_PLIST" ]; then
-  /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $BUNDLE_VERSION" "$INFO_PLIST"
-  echo "Set CFBundleVersion to $BUNDLE_VERSION"
-fi
+#if [ ! -z "$INFO_PLIST" ]; then
+#  /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $TRAVIS_BUILD_NUMBER" "$INFO_PLIST"
+#  echo "Set CFBundleVersion to $TRAVIS_BUILD_NUMBER"
+#fi
 
 if [ ! -z "$BUNDLE_IDENTIFIER" ]; then
   /usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier $BUNDLE_IDENTIFIER" "$INFO_PLIST"
