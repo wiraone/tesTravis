@@ -2,7 +2,7 @@
 # platform :ios, '6.0'
 
 target 'iPad' do
-	
+	pod 'UrbanindoCommon', :git => 'https://github.com/urbanindo/ios-common'
 end
 
 target 'iPadTests' do
